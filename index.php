@@ -8,6 +8,9 @@
     <title>Inicio</title>
 </head>
 <body>
-    <h1>Jalando bien</h1>
+<!-- esto es el header -->
+    <?php
+        include "./php/header.php"
+    ?>
 </body>
 </html>

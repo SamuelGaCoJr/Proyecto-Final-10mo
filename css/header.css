@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+nav{
+    height: 6rem;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    background-color: #4a1f51;
+}
+
+/* Estilo del logo */
+
+.logo{
+    padding: 3vh 3vw;
+    text-align: left;
+    width: 20vw;
+}
+
+.logo img{
+    height: auto;
+    width: 4rem;
+}
+
+/* Paginas o hipervinculos */
+
+.lista-paginas{
+    width: 80vw;
+    display: flex;
+    padding: 0 0.7vw;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-weight: 600;
+}
+
+.lista-paginas li a{
+    margin: 0 0.7vw;
+    text-decoration: none;
+    transition: all ease-in-out 350ms;
+    padding: 10px;
+}
+
+.lista-paginas li a:hover{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.lista-paginas li{
+    position:relative;
+}
+
+.lista-paginas li a:hover::before{
+    width: 80%;
+}
+
+
+/* Botones */
+
+.login-button{
+    padding: 0.6rem 0.8rem;
+    margin-left: 2vw;
+    font-size:1rem;
+    cursor:pointer;
+    background-color: transparent;
+    border:1.5px solid white;
+    border-radius: 2em;
+}
+
+.login-button:hover{
+    color: white;
+    background-color: orange;
+    border:1.5px solid orange;
+    transition: all ease-in-out 350ms;
+}
+
+/* Navegacion en telefono */
+
+.menu-cel div{
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu-cel{
+    display: none;
+}
+
+/* Un poco responsive */
+
+@media screen and (max-width: 800px){
+    nav{
+        position: fixed;
+        z-index: 3;
+    }
+    .menu-cel{
+        display:block;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+        transition: all 0.5s ease;
+    }
+    .lista-paginas{
+        background: #4a1f51;
+        position: fixed;
+        opacity: 1;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(50px at 90% -20%);
+        transition: all .5s ease-out;
+        pointer-events: none;
+    }
+    .lista-paginas.open{
+        clip-path: circle(100%);
+        pointer-events: all;
+    }
+    .lista-paginas li{
+        opacity: 0;
+    }
+
+    li.fade{
+        opacity: 1;
+    }
+
+}
