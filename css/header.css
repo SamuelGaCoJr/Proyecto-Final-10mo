@@ -44,7 +44,6 @@ nav{
 .lista-paginas li a{
     margin: 0 0.7vw;
     text-decoration: none;
-    transition: all ease-in-out 350ms;
     padding: 10px;
 }
 
@@ -80,7 +79,6 @@ nav{
     color: white;
     background-color: orange;
     border:1.5px solid orange;
-    transition: all ease-in-out 350ms;
 }
 
 /* Navegacion en telefono */
@@ -90,7 +88,6 @@ nav{
     height: 3px;
     background: white;
     margin: 5px;
-    transition: all 0.3s ease;
 }
 
 .menu-cel{
@@ -112,7 +109,6 @@ nav{
         top: 50%;
         transform: translate(-5%, -50%);
         z-index: 2;
-        transition: all 0.5s ease;
     }
     .lista-paginas{
         background: #4a1f51;

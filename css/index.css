@@ -4,6 +4,54 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body h1{
-    background-color: aqua;
+.carrusel-img {
+    position: absolute;
+    left: 10vw;
+    top: 6rem;
+	width: 80vw;
+    height: 70%;
+	overflow: hidden;
+    /* background-color: #4a1f51; */
+}
+
+@media screen and (max-width: 800px) {
+    .carrusel-img{
+        position: absolute;
+        left: calc(50% - 50vw);
+        top: 6rem;
+	    width: 100vw;
+        height: 50%;
+    }
+}
+.carrusel-img ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.carrusel-img li {
+    width: 100%;
+    height: auto;
+	list-style: none;
+}
+
+.carrusel-img img {
+    position: absolute;
+	width: 100%;
+    height: auto;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
 }
