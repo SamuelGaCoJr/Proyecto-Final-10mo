@@ -43,13 +43,12 @@ main .cuadros-beneficios .beneficios{
     text-align: center;
 }
 
-main .cuadros-beneficios .icono{
+main .cuadros-beneficios .beneficios .icono{
     width: 70px;
     height: 70px;
 }
 
 main .cuadros-beneficios .titulo-beneficios{
-    font-size: 2rem;
     color: #000000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -60,9 +59,47 @@ main .cuadros-beneficios .titulo-beneficios1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Inclusion */
+
+main .inclusion{
+    display: block;
+    position: relative;
+    top: 90px;
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+}
+
+main .inclusion .todo-inclusion{
+    display: block;
+    height: auto;
+    text-align: center;
+}
+
+main .inclusion .todo-inclusion .titulo-inclusion{
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+}
+
+main .inclusion .todo-inclusion .texto-inclusion{
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 25px;
+}
+
+main .inclusion .todo-inclusion .img-inclusion{
+    display: flex;
+    position: relative;
+    left: 20%;
+    padding-top: 20px;
+    width: 60%;
+    height: auto;
+}
+
 /* Mision y vision */
 
-.misyvis{
+main .misyvis{
     display: grid;
     position: relative;
     width: 100%;
@@ -73,17 +110,17 @@ main .cuadros-beneficios .titulo-beneficios1{
     grid-gap: 20px;
 }
 
-.misyvis img{
+main .misyvis img{
     padding-top: 20px;
     width: 20%;
     height: auto;
 }
 
-.misyvis .mision{
+main .misyvis .mision{
     display: block;
     position: relative;
-    width: 90%;
-    left: 5%;
+    width: 60%;
+    left: 20%;
     top: 30px;
     height: auto;
     padding: 40px;
@@ -92,20 +129,21 @@ main .cuadros-beneficios .titulo-beneficios1{
     background-color: #14213D;
 }
 
-.misyvis .mision .titulo-mision{
-    position: relative;
+main .misyvis .mision .titulo-mision{
     color: #FFFFFF;
+    font-size: xx-large;
 }
 
-.misyvis .mision .texto-mision{
+main .misyvis .mision .texto-mision{
     color: #FFFFFF;
+    font-size: 25px;
 }
 
-.misyvis .vision{
+main .misyvis .vision{
     display: block;
     position: relative;
-    width: 90%;
-    left: 5%;
+    width: 60%;
+    left: 20%;
     top: 30px;
     height: auto;
     padding: 40px;
@@ -114,12 +152,22 @@ main .cuadros-beneficios .titulo-beneficios1{
     background-color: #14213D;
 }
 
-.misyvis .vision .titulo-vision{
+main .misyvis .vision .titulo-vision{
     color:#FFFFFF;
+    font-size: xx-large;
 }
 
-.misyvis .vision .texto-vision{
+main .misyvis .vision .texto-vision{
     color: #FFFFFF;
+    font-size: 25px;
+}
+
+footer{
+    position: relative;
+    top: 75px;
+    display: inline-block;
+    width: 100%;
+    height: auto;
 }
 
 /* Desde aqui comienza el responsive */
@@ -136,19 +184,74 @@ main .cuadros-beneficios .titulo-beneficios1{
     }
 
     main .cuadros-beneficios{
-        height: 90px;
+        height: 75px;
+    }
+
+    main .cuadros-beneficios .beneficios .icono{
+        width: 40px;
+        height: 40px;
     }
 
     main .cuadros-beneficios .titulo-beneficios{
-        font-size: 1rem;
+        font-size: 12px;
     }
 
     main .cuadros-beneficios .titulo-beneficios1{
-        font-size: 1.5rem;
+        font-size: large;
     }
 
     main .cuadros-beneficios .icono{
         width: 45px;
         height: 45px;
+    }
+
+/* Mision y vision */
+
+    main .misyvis .mision{
+        width: 90%;
+        left: 5%;
+        padding: 10px;
+    }
+
+    main .misyvis .vision{
+        width: 90%;
+        left: 5%;
+        padding: 10px;
+    }
+
+    main .misyvis .mision .titulo-mision{
+        font-size: large;
+    }
+    
+    main .misyvis .mision .texto-mision{
+        font-size: 12px;
+    }
+
+    main .misyvis .vision .titulo-vision{
+        font-size: large;
+    }
+    
+    main .misyvis .vision .texto-vision{
+        font-size: 12px;
+    }
+
+/* Inclusion */
+
+    main .inclusion .todo-inclusion .titulo-inclusion{
+        font-size: large;
+        padding: 20px;
+    }
+
+    main .inclusion .todo-inclusion .texto-inclusion{
+        color: #FFFFFF;
+        font-size: 12px;
+        padding: 20px;
+    }
+
+    main .inclusion .todo-inclusion .img-inclusion{
+        position: relative;
+        left: 0px;
+        width: 100%;
+        height: auto;
     }
 }
