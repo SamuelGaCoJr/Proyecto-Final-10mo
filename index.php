@@ -9,17 +9,60 @@
 </head>
 <body>
 <!-- esto es el header -->
+<header>
     <?php
         include "./php/header.php"
     ?>
-
-    <div class="carrusel-img">
-        <ul>
-            <li><img src="./img/productos/carrusel1.png" alt=""></li>
-            <li><img src="./img/productos/carrusel2.png" alt=""></li>
-            <li><img src="./img/productos/carrusel3.png" alt=""></li>
-            <li><img src="./img/productos/carrusel4.png" alt=""></li>
-        </ul>
+</header>
+<main>
+<!-- Esto es el carrusel de imagenes -->
+    <img class="promo" src="./img/productos/promo.png" alt="">
+<!-- Estos son los cuadros de beneficios al contratarnos -->
+    <section class="cuadros-beneficios">
+        <h2 class="titulo-beneficios1">Beneficios al contratarnos</h2>
+    </section>
+    <section class="cuadros-beneficios">
+        <div class="beneficios">
+            <div>
+                <img class="icono" src="/img/pagina/seguridad.svg" alt="">
+            </div>
+            <h2 class="titulo-beneficios">Mayor seguridad</h2>
+        </div>
+        <div class="beneficios">
+            <div>
+                <img class="icono" src="/img/pagina/capacitacion.svg" alt="">
+            </div>
+            <h2 class="titulo-beneficios">Capacitación</h2>
+        </div>
+        <div class="beneficios">
+            <div>
+                <img class="icono" src="/img/pagina/soporte.svg" alt="">
+            </div>
+            <h2 class="titulo-beneficios">Soporte técnico</h2>
+        </div>
+        <div class="beneficios">
+            <div>
+                <img class="icono" src="/img/pagina/instalacion.svg" alt="">
+            </div>
+            <h2 class="titulo-beneficios">Instalación</h2>
+        </div>
+    </section>
+    <section class="misyvis">
+    <div class="mision">
+        <h2 class="titulo-mision">Misión</h2>
+        <label for="" class="texto-mision">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed earum, laborum temporibus enim, odio, velit doloribus eaque rem odit quisquam hic at laudantium repudiandae voluptate explicabo quia. Doloribus, quibusdam corrupti! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore necessitatibus nam modi suscipit alias eius beatae impedit deleniti cupiditate dolorem? Vel eius consequatur quibusdam? Expedita tempore odio natus sapiente saepe? <br>
+            <img src="/img/pagina/mision.png" alt="" class="img-mision">
+        </label>
     </div>
+    <div class="vision">
+        <h2 class="titulo-vision">Visión</h2>
+        <label for="" class="texto-vision">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rem eius, quibusdam eum alias, facere, laboriosam officia libero adipisci illum quasi. Tenetur, laboriosam cupiditate aliquid deleniti vel quae possimus rerum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi amet placeat officia eius officiis nulla odit vel! Accusantium, quaerat error eaque repudiandae, molestiae sint nesciunt necessitatibus beatae voluptatum ut ea. <br>
+            <img src="/img/pagina/vision.png" alt="" class="img-vision">
+        </label>
+    </div>
+</section>
+</main>
 </body>
 </html>

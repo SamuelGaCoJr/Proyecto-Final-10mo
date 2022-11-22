@@ -1,57 +1,154 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-.carrusel-img {
+header{
     position: absolute;
-    left: 10vw;
-    top: 6rem;
-	width: 80vw;
-    height: 70%;
-	overflow: hidden;
-    /* background-color: #4a1f51; */
+    top: 0;
 }
 
-@media screen and (max-width: 800px) {
-    .carrusel-img{
-        position: absolute;
-        left: calc(50% - 50vw);
-        top: 6rem;
-	    width: 100vw;
-        height: 50%;
-    }
-}
-.carrusel-img ul {
-	display: flex;
-	padding: 0;
-	width: 400%;
-	animation: slide 20s infinite alternate ease-in-out;
-}
-
-.carrusel-img li {
+main{
+    display: list-item;
+    position: absolute;
     width: 100%;
     height: auto;
-	list-style: none;
 }
 
-.carrusel-img img {
-    position: absolute;
-	width: 100%;
+main .promo{
+    display: block;
+    position: relative;
+    top: 6rem;
+    left: 20%;
+    width: 60%;
     height: auto;
 }
 
-@keyframes slide {
-	0% {margin-left: 0;}
-	20% {margin-left: 0;}
-	
-	25% {margin-left: -100%;}
-	45% {margin-left: -100%;}
-	
-	50% {margin-left: -200%;}
-	70% {margin-left: -200%;}
-	
-	75% {margin-left: -300%;}
-	100% {margin-left: -300%;}
+/* Cuadros de beneficios */
+main .cuadros-beneficios{
+    display: flex;
+    position: relative;
+    top: 90px;
+    width: 100%;
+    height: 200px;
+    background-color: #E5E5E5;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .cuadros-beneficios .beneficios{
+    flex-direction: column;
+    text-align: center;
+}
+
+main .cuadros-beneficios .icono{
+    width: 70px;
+    height: 70px;
+}
+
+main .cuadros-beneficios .titulo-beneficios{
+    font-size: 2rem;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main .cuadros-beneficios .titulo-beneficios1{
+    font-size: 3rem;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Mision y vision */
+
+.misyvis{
+    display: grid;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 90px;
+    left: 0;
+    background-color: #FFFFFF;
+    grid-gap: 20px;
+}
+
+.misyvis img{
+    padding-top: 20px;
+    width: 20%;
+    height: auto;
+}
+
+.misyvis .mision{
+    display: block;
+    position: relative;
+    width: 90%;
+    left: 5%;
+    top: 30px;
+    height: auto;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #14213D;
+}
+
+.misyvis .mision .titulo-mision{
+    position: relative;
+    color: #FFFFFF;
+}
+
+.misyvis .mision .texto-mision{
+    color: #FFFFFF;
+}
+
+.misyvis .vision{
+    display: block;
+    position: relative;
+    width: 90%;
+    left: 5%;
+    top: 30px;
+    height: auto;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #14213D;
+}
+
+.misyvis .vision .titulo-vision{
+    color:#FFFFFF;
+}
+
+.misyvis .vision .texto-vision{
+    color: #FFFFFF;
+}
+
+/* Desde aqui comienza el responsive */
+
+@media screen and (max-width: 768px){
+
+    main .promo{
+        display: block;
+        position: relative;
+        top: 6rem;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    main .cuadros-beneficios{
+        height: 90px;
+    }
+
+    main .cuadros-beneficios .titulo-beneficios{
+        font-size: 1rem;
+    }
+
+    main .cuadros-beneficios .titulo-beneficios1{
+        font-size: 1.5rem;
+    }
+
+    main .cuadros-beneficios .icono{
+        width: 45px;
+        height: 45px;
+    }
 }

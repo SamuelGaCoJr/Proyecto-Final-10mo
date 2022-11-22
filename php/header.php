@@ -3,7 +3,7 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="/img/logo.png" alt="SMART-X">
+                <img src="/img/pagina/logo.png" alt="SMART-X">
             </div>
             <div class="menu-cel">
                 <img src="/img/pagina/list.svg" alt="">
@@ -13,7 +13,7 @@
                 <li><a href="#">Productos</a></li>
                 <li><a href="#">Paquetes</a></li>
                 <li><a href="#">Contacto</a></li>
-                <li><button class="login-button" href="#">Iniciar sesion</button></li>
+                <li><button class="login-button" href="#">Iniciar sesión</button></li>
             </ul>
         </nav>
         <script src="js/header.js"></script>
