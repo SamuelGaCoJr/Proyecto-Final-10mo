@@ -16,8 +16,24 @@
 </header>
 <main>
 <!-- Esto es el carrusel de imagenes -->
-    <img class="promo" src="./img/productos/promo.png" alt="">
-<!-- Estos son los cuadros de beneficios al contratarnos -->
+    <!-- <img class="promo" src="./img/productos/promo.png" alt=""> -->
+    <div class="promo">
+	    <ul>
+		    <li>
+                <img src="/img/pagina/promo.png" alt="">
+            </li>
+			<li>
+                <img src="/img/pagina/promo2.png" alt="">
+            </li>
+			<li>
+                <img src="/img/pagina/promo3.png" alt="">
+            </li>
+			<li>
+                <img src="/img/pagina/promo4.png" alt="">
+            </li>
+		</ul>
+	</div>
+    <!-- Estos son los cuadros de beneficios al contratarnos -->
     <section class="cuadros-beneficios">
         <h2 class="titulo-beneficios1">Beneficios al contratarnos</h2>
     </section>
@@ -51,7 +67,7 @@
     <section class="inclusion">
         <div class="todo-inclusion">
             <h2 class="titulo-inclusion">Inclusión</h2>
-            <label for="" class="texto-inclusion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum dolorum iste sunt quia id doloribus porro earum incidunt modi unde tempore, deserunt quibusdam mollitia pariatur aut quis fuga doloremque dolore.</label><br>
+            <p for="" class="texto-inclusion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum dolorum iste sunt quia id doloribus porro earum incidunt modi unde tempore, deserunt quibusdam mollitia pariatur aut quis fuga doloremque dolore.</p><br>
             <img src="/img/pagina/inclusion.png" alt="" class="img-inclusion">
         </div>
     </section>

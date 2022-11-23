@@ -9,10 +9,10 @@
                 <img src="/img/pagina/list.svg" alt="">
             </div>
             <ul class="lista-paginas">
-                <li><a href="#">Inicio</a></li>
+                <li><a href="/index.php">Inicio</a></li>
                 <li><a href="#">Productos</a></li>
                 <li><a href="#">Paquetes</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="/php/contacto.php">Contacto</a></li>
                 <li><button class="login-button" href="#">Iniciar sesión</button></li>
             </ul>
         </nav>
