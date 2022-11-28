@@ -18,14 +18,16 @@ nav{
 /* Estilo del logo */
 
 .logo{
-    padding: 1.5vh 7vw;
+    padding: 20px;
     text-align: left;
-    width: 20vw;
+    width: 20%;
+    position: relative;
+    left: 5%;
 }
 
 .logo img{
-    height: auto;
-    width: 4rem;
+    height: 100%;
+    width: auto;
 }
 
 /* Paginas o hipervinculos */
@@ -79,8 +81,6 @@ nav{
 
 .login-button:hover{
     color: #FFFFFF;
-    background-color: #FCA311;
-    border:1.5px solid #FCA311;
 }
 
 /* Navegacion en telefono */

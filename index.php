@@ -34,7 +34,7 @@
 		</ul>
 	</div>
     <!-- Estos son los cuadros de beneficios al contratarnos -->
-    <section class="cuadros-beneficios">
+    <section class="cuadro-beneficios1">
         <h2 class="titulo-beneficios1">Beneficios al contratarnos</h2>
     </section>
     <section class="cuadros-beneficios">

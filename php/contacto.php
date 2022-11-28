@@ -23,9 +23,9 @@
             <h3 class="text-correo">Correo electrónico:</h3>
             <input type="email" class="correo" maxlength="80" placeholder=" ejemplo@ejemplo.com">
             <h3 class="text-problematica">Descripción:</h3>
-            <textarea rows="5" class="problematica" maxlength="255" placeholder=" Escribe tu pregunta o mensaje"></textarea>
-            <input type="submit" value="Enviar">
-            <input type="submit" value="Cancelar">
+            <textarea rows="5" class="problematica" maxlength="255" placeholder=" Escribe tu pregunta o mensaje"></textarea><br>
+            <input type="submit" class="btn-enviar" value="Enviar">
+            <input type="submit" class="btn-cancelar" value="Cancelar">
         </form>
     </div>
     <footer>

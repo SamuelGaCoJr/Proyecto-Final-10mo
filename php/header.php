@@ -10,10 +10,10 @@
             </div>
             <ul class="lista-paginas">
                 <li><a href="/index.php">Inicio</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Paquetes</a></li>
-                <li><a href="/php/contacto.php">Contacto</a></li>
-                <li><button class="login-button" href="#">Iniciar sesión</button></li>
+                <li><a href="/php/productos.php">Productos</a></li>
+                <li><a href="/php/encuentranos.php">Encuéntranos</a></li>
+                <li><a  href="/php/contacto.php">Contacto</a></li>
+                <li><a class="login-button" href="/php/login.php">Iniciar sesión</a></li>
             </ul>
         </nav>
         <script src="js/header.js"></script>

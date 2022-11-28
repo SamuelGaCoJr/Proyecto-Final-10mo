@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Header */
+
+header{
+    position: absolute;
+    top: 0;
+}
+
+/* Esto es todo el body */
+
+main{
+    display: list-item;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+/* Esto es el apartade de filtros */
+
+main .filtros{
+    position: fixed;
+    left: 10%;
+    top: 130px;
+    width: 15%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #E5E5E5;
+}
+
+main .filtros h3{
+    color: #000000;
+}
+
+main .caja-productos{
+    display: grid;
+    position: relative;
+    top: 130px;
+    left: 30%;
+    width: 60%;
+    height: auto;
+    background-color: #E5E5E5;
+}
+
+main .caja-productos .producto{
+    display: grid;
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background-color: #FFFFFF;
+    list-style: none;
+    margin-bottom: 2px;
+    grid-template-columns: repeat(2, auto);
+}
+
+main .caja-productos .producto .img-producto{
+    position: relative;
+    top: 10px;
+    width: auto;
+    height: 170px;
+    margin: 0 auto;
+}
+
+main .caja-productos .producto .texto-producto{
+    padding: 30px;
+    position: relative;
+}
+
+main .caja-productos .producto .texto-producto .nombre-producto{
+    color: #000000;
+}
+
+main .caja-productos .producto .texto-producto .precio{
+    color: red;
+}
+/* Esto es el footer */
+
+footer{
+    position: absolute;
+    top: 110%;
+    width: 100%;
+    height: auto;
+}

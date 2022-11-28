@@ -10,12 +10,13 @@
     position: absolute;
     left: 10%;
     width: 80%; 
-    top: 30%;
+    top: 20%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     list-style: none;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .footer .lista-footer li a{
@@ -24,19 +25,8 @@
     transition: .5s;
 }
 
-.footer .lista-footer li a:hover{
-    color: #000000;
-    background-color: #FFFFFF;
-    padding: 10px;
-    border-radius: 50px;
-}
-
 .footer .lista-footer li{
     position: relative;
-}
-
-.footer .lista-footer li a:hover::before{
-    width: 80%;
 }
 
 .footer .copyright{
@@ -44,5 +34,5 @@
     top: 70%;
     width: 100%;
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
 }
