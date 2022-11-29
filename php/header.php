@@ -3,7 +3,7 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="/img/pagina/logo.png" alt="SMART-X">
+                <a href="/index.php"><img src="/img/pagina/logo.png" alt="SMART-X"></a>
             </div>
             <div class="menu-cel">
                 <img src="/img/pagina/list.svg" alt="">

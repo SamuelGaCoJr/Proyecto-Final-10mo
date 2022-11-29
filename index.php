@@ -20,16 +20,16 @@
     <div class="promo">
 	    <ul>
 		    <li>
-                <img src="/img/pagina/promo.png" alt="">
+                <img src="/img/pagina/1.png" alt="">
             </li>
 			<li>
-                <img src="/img/pagina/promo2.png" alt="">
+                <img src="/img/pagina/2.png" alt="">
             </li>
 			<li>
-                <img src="/img/pagina/promo3.png" alt="">
+                <img src="/img/pagina/3.png" alt="">
             </li>
 			<li>
-                <img src="/img/pagina/promo4.png" alt="">
+                <img src="/img/pagina/4.png" alt="">
             </li>
 		</ul>
 	</div>
@@ -75,7 +75,7 @@
         <div class="mision">
             <h2 class="titulo-mision">Misión</h2>
             <label for="" class="texto-mision">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed earum, laborum temporibus enim, odio, velit doloribus eaque rem odit quisquam hic at laudantium repudiandae voluptate explicabo quia. Doloribus, quibusdam corrupti! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore necessitatibus nam modi suscipit alias eius beatae impedit deleniti cupiditate dolorem? Vel eius consequatur quibusdam? Expedita tempore odio natus sapiente saepe? <br>
+            Aportar seguridad y comodidad utilizando tecnologías y productos innovadores para enriquecer la vida de las personas. <br>
                 <img src="/img/pagina/mision.png" alt="" class="img-mision">
             </label>
         </div>

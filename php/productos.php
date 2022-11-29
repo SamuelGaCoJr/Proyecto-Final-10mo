@@ -82,7 +82,22 @@
             <h3 class="nombre-producto">Chocomilk Pancho Pantera 500ml</h3>
             <span class="precio">$3,000.00</span>
         </div>
-    </div><div class="producto">
+    </div>
+    <div class="producto">
+        <img src="../img/productos/choco.png" alt="Chocomilk" class="img-producto">
+        <div class="texto-producto">
+            <h3 class="nombre-producto">Chocomilk Pancho Pantera 500ml</h3>
+            <span class="precio">$5,000.00</span>
+        </div>
+    </div>
+    <div class="producto">
+        <img src="../img/productos/choco.png" alt="Chocomilk" class="img-producto">
+        <div class="texto-producto">
+            <h3 class="nombre-producto">Chocomilk Pancho Pantera 500ml</h3>
+            <span class="precio">$5,000.00</span>
+        </div>
+    </div>
+    <div class="producto">
         <img src="../img/productos/choco.png" alt="Chocomilk" class="img-producto">
         <div class="texto-producto">
             <h3 class="nombre-producto">Chocomilk Pancho Pantera 500ml</h3>
