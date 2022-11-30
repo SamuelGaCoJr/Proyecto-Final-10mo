@@ -21,7 +21,7 @@ main .caja-formulario{
     left: 25%;
     width: 50%;
     height: auto;
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
     background-color: #14213D;
     align-items: center;
@@ -52,7 +52,7 @@ main .caja-formulario .formulario input{
     border: none;
     outline: none;
     text-transform: 5px;
-    color: #000000;
+    color: #0C0C0C;
     font-size: 18px;
 }
 
@@ -62,7 +62,7 @@ main .caja-formulario .formulario .problematica{
     border-radius: 5px;
     box-shadow: none;
     border: none;
-    color: #000000;
+    color: #0C0C0C;
     font-size: 18px;
     max-width: 100%;
     min-width: 100%;
@@ -93,17 +93,17 @@ footer{
 
 /* Responsive */
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 980px) {
     main .caja-formulario{
         width: 90%;
         left: 5%;
         top: 120px;
-        padding: 10px;
+        padding: 50px 20px;
     }
 
     main .caja-formulario .formulario{
-        width: 70%;
-        left: 15%;
+        width: 100%;
+        left: 0;
     }
 
     main .caja-formulario .formulario h1{
@@ -117,10 +117,22 @@ footer{
     }
     
     main .caja-formulario .formulario input{
-        font-size: 12px;
+        font-size: 16px;
+    }
+
+    main .caja-formulario .formulario .btn-enviar{
+        position: relative;
+        width: 60%;
+        left: 20%;
+    }
+
+    main .caja-formulario .formulario .btn-cancelar{
+        position: relative;
+        width: 60%;
+        left: 20%;
     }
 
     main .caja-formulario .formulario .problematica{
-        font-size: 12px;
+        font-size: 16px;
     }
 }

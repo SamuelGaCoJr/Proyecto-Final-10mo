@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: #FEFCFB;
 }
 
 
@@ -51,8 +51,8 @@ nav{
 }
 
 .lista-paginas li a:hover{
-    color: #000000;
-    background-color: #FFFFFF;
+    color: #0C0C0C;
+    background-color: #FEFCFB;
     padding: 10px;
     border-radius: 50px;
 }
@@ -73,14 +73,14 @@ nav{
     font-size: 1rem;
     cursor: pointer;
     background-color: transparent;
-    border:1.5px solid #FFFFFF;
+    border:1.5px solid #FEFCFB;
     border-radius: 2em;
     font-size: x-large;
     transition: .5s;
 }
 
 .login-button:hover{
-    color: #FFFFFF;
+    color: #FEFCFB;
 }
 
 /* Navegacion en telefono */
@@ -88,7 +88,7 @@ nav{
 .menu-cel div{
     width: 30px;
     height: 3px;
-    background: #FFFFFF;
+    background: #FEFCFB;
     margin: 5px;
 }
 
@@ -98,7 +98,7 @@ nav{
 
 /* Un poco responsive */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 980px){
     nav{
         position: fixed;
         z-index: 3;

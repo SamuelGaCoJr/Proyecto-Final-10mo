@@ -25,7 +25,7 @@ main{
 main .caja-mapa{
     position: relative;
     width: 80%;
-    height: auto;
+    height: 65%;
     top: 150px;
     left: 10%;
     background-color: #14213D;
@@ -34,21 +34,16 @@ main .caja-mapa{
 }
 
 main  .caja-mapa .texto-encuentranos{
-    color: #FFFFFF;
+    color: #FEFCFB;
     font-size: 25px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
-main .caja-mapa .mapa{
+main .caja-mapa iframe{
     position: relative;
     width: 100%;
-    height: 540px;
-}
-
-main .caja-mapa .mapa iframe{
-    width: 100%;
-    height: 100%;
+    height: 85%;
 }
 
 /* Esto es el footer */
@@ -68,7 +63,7 @@ footer{
     main .caja-mapa{
         position: relative;
         width: 100%;
-        height: auto;
+        height: 60%;
         top: 120px;
         left: 0;
         background-color: #14213D;
@@ -76,15 +71,9 @@ footer{
         border-radius: 0;
     }
 
-    main .caja-mapa .mapa{
-        position: relative;
-        width: 100%;
-        height: 400px;
-    }
-
     main  .caja-mapa .texto-encuentranos{
-        color: #FFFFFF;
-        font-size: 15px;
+        color: #FEFCFB;
+        font-size: 16px;
         text-align: center;
         padding-bottom: 20px;
     }

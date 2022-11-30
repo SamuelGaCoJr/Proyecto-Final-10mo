@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    color: #FFFFFF;
+    color: #FEFCFB;
 }
 
 nav{
@@ -29,7 +29,7 @@ header .logo img{
 }
 
 main{
-    color: #FFFFFF;
+    color: #FEFCFB;
     display: list-item;
     position: absolute;
     width: 100%;

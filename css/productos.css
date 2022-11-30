@@ -35,7 +35,7 @@ main .filtros{
 }
 
 main .filtros h3{
-    color: #000000;
+    color: #0C0C0C;
 }
 
 main .caja-productos{
@@ -53,7 +53,7 @@ main .caja-productos .producto{
     position: relative;
     width: 100%;
     height: 180px;
-    background-color: #FFFFFF;
+    background-color: #FEFCFB;
     list-style: none;
     margin-bottom: 2px;
     grid-template-columns: repeat(2, auto);
@@ -73,7 +73,7 @@ main .caja-productos .producto .texto-producto{
 }
 
 main .caja-productos .producto .texto-producto .nombre-producto{
-    color: #000000;
+    color: #0C0C0C;
 }
 
 main .caja-productos .producto .texto-producto .precio{
@@ -86,4 +86,35 @@ footer{
     top: 110%;
     width: 100%;
     height: auto;
+}
+
+@media screen and (max-width: 980px) {
+
+    main .filtros{
+        position: relative;
+        left: 0%;
+        width: 100%;
+        height: auto;
+        top: 100px;
+        border-radius: 10px;
+        background-color: #E5E5E5;
+    }
+
+    main .filtros h3{
+        color: #0C0C0C;
+        text-align: center;
+    }
+
+    main .caja-productos{
+        position: relative;
+        top: 130px;
+        left: 0%;
+        width: 100%;
+        height: auto;
+    }
+
+    main .caja-productos .producto .img-producto{
+        height: 100px;
+        margin: 0 auto;
+    }
 }

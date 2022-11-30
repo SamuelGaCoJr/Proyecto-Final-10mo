@@ -82,7 +82,7 @@ main .cuadro-beneficios1{
 
 main .cuadro-beneficios1 .titulo-beneficios1{
     font-size: xx-large;
-    color: #000000;
+    color: #0C0C0C;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -97,7 +97,7 @@ main .cuadros-beneficios .beneficios .icono{
 }
 
 main .cuadros-beneficios .titulo-beneficios{
-    color: #000000;
+    color: #0C0C0C;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -109,7 +109,7 @@ main .inclusion{
     top: 90px;
     width: 100%;
     height: auto;
-    background-color: #000000;
+    background-color: #0C0C0C;
 }
 
 main .inclusion .todo-inclusion{
@@ -125,7 +125,7 @@ main .inclusion .todo-inclusion .titulo-inclusion{
 }
 
 main .inclusion .todo-inclusion .texto-inclusion{
-    color: #FFFFFF;
+    color: #FEFCFB;
     font-size: 25px;
     text-align: justify;
     position: relative;
@@ -150,7 +150,7 @@ main .misyvis{
     height: 100%;
     top: 90px;
     left: 0;
-    background-color: #FFFFFF;
+    background-color: #FEFCFB;
     grid-gap: 20px;
 }
 
@@ -176,14 +176,14 @@ main .misyvis .mision{
 }
 
 main .misyvis .mision .titulo-mision{
-    color: #FFFFFF;
+    color: #FEFCFB;
     font-size: xx-large;
     text-align: center;
     padding-bottom: 10px;
 }
 
 main .misyvis .mision .texto-mision{
-    color: #FFFFFF;
+    color: #FEFCFB;
     font-size: 25px;
 }
 
@@ -201,14 +201,14 @@ main .misyvis .vision{
 }
 
 main .misyvis .vision .titulo-vision{
-    color:#FFFFFF;
+    color:#FEFCFB;
     font-size: xx-large;
     text-align: center;
     padding-bottom: 10px;
 }
 
 main .misyvis .vision .texto-vision{
-    color: #FFFFFF;
+    color: #FEFCFB;
     font-size: 25px;
 }
 
@@ -222,7 +222,7 @@ footer{
 
 /* Desde aqui comienza el responsive */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 980px){
 
     main .promo{
         display: block;
@@ -248,7 +248,7 @@ footer{
     }
 
     main .cuadros-beneficios .titulo-beneficios{
-        font-size: 12px;
+        font-size: 16px;
     }
 
     main .cuadro-beneficios1 .titulo-beneficios1{
@@ -279,7 +279,7 @@ footer{
     }
     
     main .misyvis .mision .texto-mision{
-        font-size: 12px;
+        font-size: 16px;
     }
 
     main .misyvis .vision .titulo-vision{
@@ -287,7 +287,7 @@ footer{
     }
     
     main .misyvis .vision .texto-vision{
-        font-size: 12px;
+        font-size: 16px;
     }
 
 /* Inclusion */
@@ -298,8 +298,8 @@ footer{
     }
 
     main .inclusion .todo-inclusion .texto-inclusion{
-        color: #FFFFFF;
-        font-size: 12px;
+        color: #FEFCFB;
+        font-size: 16px;
         position: relative;
         left: 5%;
         width: 90%;

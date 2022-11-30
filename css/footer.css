@@ -17,16 +17,19 @@
     text-align: center;
     list-style: none;
     font-size: 15px;
+
 }
 
 .footer .lista-footer li a{
     text-decoration: none;
-    padding: 15px;
     transition: .5s;
 }
 
 .footer .lista-footer li{
     position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
 }
 
 .footer .copyright{

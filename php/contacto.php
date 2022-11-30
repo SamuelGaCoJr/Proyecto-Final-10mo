@@ -25,7 +25,7 @@
             <h3 class="text-problematica">Descripción:</h3>
             <textarea rows="5" class="problematica" maxlength="255" placeholder=" Escribe tu pregunta o mensaje" required></textarea>
             <input type="submit" class="btn-enviar" value="Enviar">
-            <input type="submit" class="btn-cancelar" value="Cancelar">
+            <input type="reset" class="btn-cancelar" value="Cancelar">
         </form>
     </div>
     <footer>
