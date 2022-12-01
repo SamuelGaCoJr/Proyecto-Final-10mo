@@ -29,12 +29,44 @@ main .filtros{
     top: 130px;
     width: 15%;
     height: auto;
-    padding: 10px;
     border-radius: 10px;
     background-color: #E5E5E5;
+    align-items: center;
+    padding: 10px;
+}
+
+main .filtros .menor-mayor{
+    padding-top: 10px;
+}
+
+main .filtros h1{
+    color: #0C0C0C;
+    padding-top: 10px;
+    text-align: center;
 }
 
 main .filtros h3{
+    color: #0C0C0C;
+    padding-top: 10px;
+}
+
+main .filtros input{
+    color: #0C0C0C;
+    position: relative;
+    border: 0;
+    height: 30px;
+    padding: 3px;
+    margin-top: 5px;
+    box-shadow: none;
+    width: 100%;
+    background-color: #FEFCFB;
+}
+
+main .filtros .buscar-filtro{
+    background-color: #38b000;
+}
+
+main .filtros p{
     color: #0C0C0C;
 }
 
@@ -79,11 +111,27 @@ main .caja-productos .producto .texto-producto .nombre-producto{
 main .caja-productos .producto .texto-producto .precio{
     color: red;
 }
+
+main .caja-productos .producto .texto-producto .agregar-carrito{
+    position: relative;
+    top: 10px;
+    width: 90px;
+    height: 70px;
+    border: 0;
+    left: 70%;
+    border-radius: 10px;
+    background-color: #E5E5E5;
+}
+
+main .caja-productos .producto .texto-producto .agregar-carrito .carrito{
+    width: 80%;
+    height: 80%;
+}
 /* Esto es el footer */
 
 footer{
     position: absolute;
-    top: 110%;
+    top: 130%;
     width: 100%;
     height: auto;
 }
@@ -116,5 +164,37 @@ footer{
     main .caja-productos .producto .img-producto{
         height: 100px;
         margin: 0 auto;
+    }
+
+    main .filtros input{
+        color: #0C0C0C;
+        position: relative;
+        border: 0;
+        height: 30px;
+        padding: 3px;
+        margin-top: 5px;
+        box-shadow: none;
+        width: 50%;
+        background-color: #FEFCFB;
+        left: 25%;
+    }
+
+    main .filtros p{
+        position: relative;
+        width: 50%;
+        left: 25%;
+    }
+
+    main .caja-productos .producto .texto-producto .agregar-carrito{
+        position: relative;
+        bottom: 10%;
+        width: 30%;
+        height: 35%;
+        left: 70%;
+    }
+    
+    main .caja-productos .producto .texto-producto .agregar-carrito .carrito{
+        width: 80%;
+        height: 80%;
     }
 }

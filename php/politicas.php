@@ -28,7 +28,7 @@
         1.1	Aceptación de términos y condiciones.
     </h3>
     <p>
-        Bienvenidos al sitio web el cual es propiedad de SMART-X con domicilio en Aralias #125, fluvial, puerto Vallarta, Jalisco, código postal 48360, México inscritos en el régimen federal de contribuyentes como persona física. Su dirección e-mail es empresa@mx.focusx.com
+        Bienvenidos al sitio web el cual es propiedad de SMART-X con domicilio en Aralias #125, fluvial, puerto Vallarta, Jalisco, código postal 48360, México inscritos en el régimen federal de contribuyentes como persona física. Su dirección e-mail es empresa@mx.smart-x.com
     </p>
 	<p>
         Le recomendamos lea detalladamente los presentes términos y condiciones, así como consultar nuestro aviso de privacidad para conocer el tratamiento que le daremos a sus datos y los fines con el cual serán utilizados, antes de comenzar su registro en nuestro sitio web. Así como también nuestros términos condiciones.
@@ -43,13 +43,13 @@
         3.	Contacto.
     </h3> 
 	<p>
-        Si tienes cualquier pregunta o comentario relacionado con las presentes condiciones de uso, puede ponerse en contacto con nosotros en la siguiente dirección Aralias #125, fluvial, puerto Vallarta, Jalisco, código postal 48360, México o al correo contacto@mx.focusx.com
+        Si tienes cualquier pregunta o comentario relacionado con las presentes condiciones de uso, puede ponerse en contacto con nosotros en la siguiente dirección Aralias #125, fluvial, puerto Vallarta, Jalisco, código postal 48360, México o al correo contacto@mx.smart-x.com
 	</p>
     <h3>
         Información relevante.
     </h3>
     <p>
-        Es requisito necesario para la adquisición de los servicios que se ofrecen en este sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestros servicios implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente documento. Todos los servicios que son ofrecidos por nuestro sitio web pudieran ser creadas, cobradas, enviadas o presentadas por una página web tercera y en tal caso estarían sujetas a sus propios Términos y Condiciones. En algunos casos, para adquirir un servicio, será necesario el registro por parte del usuario, con ingreso de datos personales fidedignos y definición de una contraseña. El usuario puede elegir y cambiar la clave para su acceso de administración de la cuenta en cualquier momento, en caso de que se haya registrado y que sea necesario para la solicitud de alguno de nuestros servicios. FocusX no asume la responsabilidad en caso de que entregue dicha clave a terceros. Todas las compras y transacciones que se lleven a cabo por medio de este sitio web, están sujetas a un proceso de confirmación y verificación, el cual podría incluir la verificación y disponibilidad de producto, validación de la forma de pago, validación de la factura (en caso de existir) y el cumplimiento de las condiciones requeridas por el medio de pago seleccionado. En algunos casos puede que se requiera una verificación por medio de correo electrónico. El precio de los servicios ofrecidos en este sitio web es válido solamente en las compras realizadas en este sitio web. FocusX a través de su sitio web concede una licencia específica por un lapso de tiempo definido para que los usuarios utilicen los servicios con el fin de lograr la acreditación de acuerdo a los Términos y Condiciones que se describen en este documento. 
+        Es requisito necesario para la adquisición de los servicios que se ofrecen en este sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestros servicios implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente documento. Todos los servicios que son ofrecidos por nuestro sitio web pudieran ser creadas, cobradas, enviadas o presentadas por una página web tercera y en tal caso estarían sujetas a sus propios Términos y Condiciones. En algunos casos, para adquirir un servicio, será necesario el registro por parte del usuario, con ingreso de datos personales fidedignos y definición de una contraseña. El usuario puede elegir y cambiar la clave para su acceso de administración de la cuenta en cualquier momento, en caso de que se haya registrado y que sea necesario para la solicitud de alguno de nuestros servicios. SMART-X no asume la responsabilidad en caso de que entregue dicha clave a terceros. Todas las compras y transacciones que se lleven a cabo por medio de este sitio web, están sujetas a un proceso de confirmación y verificación, el cual podría incluir la verificación y disponibilidad de producto, validación de la forma de pago, validación de la factura (en caso de existir) y el cumplimiento de las condiciones requeridas por el medio de pago seleccionado. En algunos casos puede que se requiera una verificación por medio de correo electrónico. El precio de los servicios ofrecidos en este sitio web es válido solamente en las compras realizadas en este sitio web. SMART-X a través de su sitio web concede una licencia específica por un lapso de tiempo definido para que los usuarios utilicen los servicios con el fin de lograr la acreditación de acuerdo a los Términos y Condiciones que se describen en este documento. 
     </p>
     <h3>
         Uso no autorizado.
@@ -61,7 +61,7 @@
         Propiedad.
     </h3>
     <p>
-        Usted no puede declarar propiedad intelectual o exclusiva a ninguno de nuestros productos, modificado o sin modificar. Todos los servicios son propiedad de los proveedores del contenido. En caso de que no se especifique lo contrario, nuestros servicios se proporcionan sin ningún tipo de garantía, expresa o implícita. En ningún momento esta compañía será 4responsable de ningún daño incluyendo, pero no limitado a, daños directos, indirectos, especiales, fortuitos o consecuentes u otras pérdidas resultantes del uso o de la imposibilidad de utilizar nuestros servicios. 
+        Usted no puede declarar propiedad intelectual o exclusiva a ninguno de nuestros productos, modificado o sin modificar. Todos los servicios son propiedad de los proveedores del contenido. En caso de que no se especifique lo contrario, nuestros servicios se proporcionan sin ningún tipo de garantía, expresa o implícita. En ningún momento esta compañía será responsable de ningún daño incluyendo, pero no limitado a, daños directos, indirectos, especiales, fortuitos o consecuentes u otras pérdidas resultantes del uso o de la imposibilidad de utilizar nuestros servicios. 
     </p>
     <h3>
         Reenbolso y garantía.

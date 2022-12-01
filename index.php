@@ -67,7 +67,7 @@
     <section class="inclusion">
         <div class="todo-inclusion">
             <h2 class="titulo-inclusion">Inclusión</h2>
-            <p for="" class="texto-inclusion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum dolorum iste sunt quia id doloribus porro earum incidunt modi unde tempore, deserunt quibusdam mollitia pariatur aut quis fuga doloremque dolore.</p><br>
+            <p for="" class="texto-inclusion">La tecnología como desarrollo personal ayuda a incrementar tus capacidades para experimentar de manera libre. Los entornos con tecnologías ayudan a que los espacios sean idóneos para todas las personas.</p><br>
             <img src="/img/pagina/inclusion.png" alt="" class="img-inclusion">
         </div>
     </section>
