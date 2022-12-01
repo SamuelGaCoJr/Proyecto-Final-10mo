@@ -82,7 +82,7 @@
         <div class="vision">
             <h2 class="titulo-vision">Visión</h2>
             <label for="" class="texto-vision">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rem eius, quibusdam eum alias, facere, laboriosam officia libero adipisci illum quasi. Tenetur, laboriosam cupiditate aliquid deleniti vel quae possimus rerum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi amet placeat officia eius officiis nulla odit vel! Accusantium, quaerat error eaque repudiandae, molestiae sint nesciunt necessitatibus beatae voluptatum ut ea. <br>
+                Contar con prodctos de la mejor calidad para tu comodidad.<br>
                 <img src="/img/pagina/vision.png" alt="" class="img-vision">
             </label>
         </div>
